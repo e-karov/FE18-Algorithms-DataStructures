@@ -1,0 +1,11 @@
+const random_n >= 1 && <= N;
+let x = myNumber;
+
+while x != random_n:
+    if x < random_n:
+        x = x+1;
+    else:
+        x = x // 2;
+
+
+

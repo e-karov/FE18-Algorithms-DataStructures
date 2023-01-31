@@ -1,0 +1,13 @@
+const random_n: >= 1 && <= N 
+
+let x = user_input
+
+while x != random_n:
+    if x < random_n:
+        print: “My number is higher than x, guess again higher!”
+    else:
+        print: “My number is lower than x, guess again lower!”
+
+    x = user_input
+
+print: “You are correct - the random number is x”
