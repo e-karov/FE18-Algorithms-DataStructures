@@ -1,0 +1,28 @@
+let amount = user_input
+
+let 100eur = 0
+let 50eur = 0
+let 20eur = 0
+let 10eur = 0
+
+if amount >= 100 && 100 EUR notes available:
+    100eur = amount // 100   <-- integer division, taking just the integer part and ignoring the fractional part of the result
+    amount = amount % 100
+
+if amount >= 50 && 50 EUR notes available:
+    50eur = amount // 50
+    amount = amount % 50
+
+if amount >= 20 && 20 EUR notes available:
+    50eur = amount // 20
+    amount = amount % 20
+
+if amount >= 10 && 10 EUR notes available:
+    50eur = amount // 10
+    amount = amount % 10
+else:
+    print: "{amount} EUR is not possible, I do not have 10 EUR notes at this moment”
+    return
+
+
+print: "{100eur} notes of 100 EUR, {50eur} notes of 50 EUR, {20eur} notes of 20 EUR, {10eur} notes of 10 EUR"
