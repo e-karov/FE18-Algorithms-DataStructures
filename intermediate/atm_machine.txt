@@ -26,3 +26,7 @@ else:
 
 
 print: "{100eur} notes of 100 EUR, {50eur} notes of 50 EUR, {20eur} notes of 20 EUR, {10eur} notes of 10 EUR"
+
+
+
+c) The ATM machine should be refilled when the 10 EUR notes are over(or below a certain minimum).
