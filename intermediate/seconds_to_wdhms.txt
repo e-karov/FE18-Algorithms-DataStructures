@@ -1,0 +1,23 @@
+let seconds = user_input
+let minutes = 0
+let hours = 0
+let days = 0
+let weeks = 0
+
+if seconds >= 60:
+    seconds = seconds % 60
+    minutes = seconds // 60      <-- integer division
+
+    if minutes >= 60:
+        minutes = minutes % 60
+        hours = minutes // 60
+
+        if hours >= 24:
+            hours = hours % 24
+            days = hours // 24
+
+            if days >= 7:
+                days = days % 7
+                weeks = days // 24
+
+print: "{weeks} weeks {days} days {hours} hours minutes minutes and {seconds} seconds”"
